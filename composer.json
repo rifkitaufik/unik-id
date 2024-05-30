@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "SayaWRT\\Unik-Id\\": "src/"
+            "SayaWRT\\UnikId\\": "src/"
         }
     },
     "repositories": [

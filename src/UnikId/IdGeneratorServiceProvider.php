@@ -1,4 +1,6 @@
-<?php namespace SayaWRT\UnikId;
+<?php
+
+namespace SayaWRT\UnikId;
 
 use Illuminate\Support\ServiceProvider;
 

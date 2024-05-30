@@ -27,7 +27,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "SayaWRT\\Unik-Id\\IdGeneratorServiceProvider"
+                "SayaWRT\\UnikId\\IdGeneratorServiceProvider"
             ]
         }
     }

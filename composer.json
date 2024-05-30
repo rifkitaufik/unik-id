@@ -8,16 +8,23 @@
             "email": "rifkitaufik01@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": "^7.4|^8.0"
+        "php": "^7.4|^8.0",
+        "sayawrt/unik-id": "main"
     },
     "autoload": {
         "psr-4": {
             "SayaWRT\\Unik-Id\\": "src/"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/sayawrt/unik-id"
+        }
+    ],
     "extra": {
         "laravel": {
             "providers": [

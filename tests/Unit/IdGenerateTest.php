@@ -1,6 +1,6 @@
-<?php namespace Haruncpi\LaravelIdGenerator\Tests\Unit;
+<?php namespace SayaWRT\UnikId\Tests\Unit;
 
-use Haruncpi\LaravelIdGenerator\IdGenerator;
+use SayaWRT\UnikId\IdGenerator;
 use Illuminate\Support\Facades\DB;
 use Tests\TestCase;
 

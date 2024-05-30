@@ -1,4 +1,4 @@
-<?php namespace SayaWRT\UnikId;
+<?php namespace SayaWRT\Unik;
 
 use Illuminate\Support\Facades\DB;
 use Exception;

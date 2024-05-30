@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "SayaWRT\\UnikId\\": "src/"
+            "SayaWRT\\Unik\\": "src/"
         }
     },
     "repositories": [
@@ -27,7 +27,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "SayaWRT\\UnikId\\IdGeneratorServiceProvider"
+                "SayaWRT\\Unik\\IdGeneratorServiceProvider"
             ]
         }
     }

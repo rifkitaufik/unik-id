@@ -1,6 +1,6 @@
-<?php namespace SayaWRT\UnikId\Traits;
+<?php namespace SayaWRT\Unik\Traits;
 
-use SayaWRT\UnikId\IdGenerator;
+use SayaWRT\Unik\IdGenerator;
 
 /**
  * Trait IdFactory

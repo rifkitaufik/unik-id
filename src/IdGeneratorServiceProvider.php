@@ -1,6 +1,6 @@
 <?php
 
-namespace SayaWRT\UnikId;
+namespace SayaWRT\Unik;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -18,6 +18,6 @@ class IdGeneratorServiceProvider extends ServiceProvider
     
     public function register()
     {
-        $this->app->make('SayaWRT\UnikId\IdGenerator');
+        $this->app->make('SayaWRT\Unik\IdGenerator');
     }
 }

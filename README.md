@@ -15,7 +15,7 @@
 gunakan ini setiap akan digunakan
 
 ```bash
-  use SayaWRT/Unik/IdGenerator;
+  use SayaWRT\Unik\IdGenerator;
 ```
 
 ```bash

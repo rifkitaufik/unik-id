@@ -10,14 +10,23 @@ use Illuminate\Support\ServiceProvider;
  */
 class IdGeneratorServiceProvider extends ServiceProvider
 {
-
-    public function boot()
+    /**
+     * Perform post-registration booting of services.
+     *
+     * @return void
+     */
+    public function boot(): void
     {
+        // Boot logic if needed
     }
 
-    
-    public function register()
+    /**
+     * Register bindings in the container.
+     *
+     * @return void
+     */
+    public function register(): void
     {
-        $this->app->make('SayaWRT\Unik\IdGenerator');
+        $this->app->make(IdGenerator::class);
     }
 }

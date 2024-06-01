@@ -1,6 +1,9 @@
-<?php namespace SayaWRT\Unik\Traits;
+<?php
+
+namespace SayaWRT\Unik\Traits;
 
 use SayaWRT\Unik\IdGenerator;
+use Exception;
 
 /**
  * Trait IdFactory
@@ -15,14 +18,14 @@ trait IdFactory
      * @return void
      * @since 1.0.2
      */
-    private static function validateIdConfig()
+    private static function validateIdConfig(): void
     {
         if (!isset(self::$idConfig)) {
-            throw new \Exception("IdGeneratable trait required ID config");
+            throw new Exception("IdGeneratable trait required ID config");
         }
 
         if (!isset(self::$idConfig['length']) || !isset(self::$idConfig['prefix'])) {
-            throw new \Exception("length and prefix required for id generation");
+            throw new Exception("length and prefix required for id generation");
         }
     }
 
@@ -32,7 +35,7 @@ trait IdFactory
      * @return void
      * @since 1.0.2
      */
-    public static function bootIdGeneratable()
+    public static function bootIdGeneratable(): void
     {
         self::creating(function ($model) {
             self::validateIdConfig();
